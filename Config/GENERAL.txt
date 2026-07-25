@@ -12,6 +12,9 @@ CONFIG_PACKAGE_luci-app-softethervpn=y
 CONFIG_PACKAGE_luci-app-ddns-go=y
 CONFIG_PACKAGE_luci-app-tailscale=n
 
+# 新增 rtp2httpd (IPTV 组播转单播流)
+CONFIG_PACKAGE_luci-app-rtp2httpd=y
+
 # mDNS 跨网段转发 (用于 ZeroTier / HA 发现设备)
 CONFIG_PACKAGE_mdns-repeater=y
 CONFIG_PACKAGE_luci-app-mdns-repeater=y
